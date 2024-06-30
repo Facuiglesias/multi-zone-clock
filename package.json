@@ -1,0 +1,24 @@
+{
+  "name": "multi-zone-clock",
+  "version": "1.0.0",
+  "description": "Un proyecto web simple que muestra la hora y el día actuales del usuario. Incluye una funcionalidad para cambiar la zona horaria y actualizar la hora mostrada en consecuencia. Construido con HTML, CSS y JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tailwindcss -i ./public/main.css -o ./public/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Facuiglesias/multi-zone-clock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Facuiglesias/multi-zone-clock/issues"
+  },
+  "homepage": "https://github.com/Facuiglesias/multi-zone-clock#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
